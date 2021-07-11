@@ -1,0 +1,82 @@
+.batas-atas {
+  margin-top: 150px;
+}
+
+.lingkaran {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 219px;
+  /* margin-bottom: 50px; */
+  /* margin: 200px; */
+  background: #ffffff;
+  border-radius: 100%;
+  /* outline: rgb(255, 255, 255); */
+  /* float: right; */
+  /* position: absolute; */
+  /* overflow: visible; */
+  /* position: absolute; */
+  z-index: 3;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.lingkaran-kecil {
+  width: 20px;
+  height: 20px;
+  background: #dac52c;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.card.isi {
+  border: none;
+}
+
+.card-header {
+  /* padding: .5rem 1rem; */
+  margin-bottom: 0;
+  background-color: #f2d096;
+  border-bottom: none;
+}
+
+.card-body.color {
+  background-color: #ed8975;
+}
+
+.bagian-atas-card {
+  /* position: fixed; */
+  /* position: relative; */
+  /* padding: 70px; */
+  height: 150px;
+  /* max-width: 150px; */
+  position: absolute;
+  /* z-index: 1; */
+  width: -webkit-fill-available;
+  background-color: #304d63;
+}
+
+.bagian-bawah-card {
+  /* margin-top: 117px; */
+  margin-top: 239px;
+  padding: 10px;
+  height: 124px;
+  text-align: center;
+  width: -webkit-fill-available;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.gambar-background {
+  background-image: url("/img/happy-birthday-celebration-with-balloons-presents/53611.jpg");
+  width: 100%; /* or any custom size */
+  height: 100%;
+  object-fit: contain;
+}
